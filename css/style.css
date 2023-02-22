@@ -136,7 +136,7 @@ label i{
     position: absolute;
     width: 450px;
     height: 856px;
-    left: 300px;
+    left: 240px;
     top: 350px;
     justify-content: start;
     display: flex;
@@ -145,7 +145,7 @@ label i{
     position: absolute;
     width: 496px;
     height: 856px;
-    left: 1400px;
+    left: 1200px;
     top: 350px;
     justify-content: left;
     display: flex;
@@ -154,14 +154,11 @@ label i{
     position: absolute;
     width: 330px;
     height: 52px;
-    left: 475px;
+    left: 400px;
     top: 1205px;
-    font-family: 'JejuGothic';
-    font-style: normal;
     font-weight: 400;
     font-size: 48px;
     line-height: 52px;
-    color: #000000;
     background: rgba(217, 217, 217, 0.42);
     justify-content: center;
     display: flex;
@@ -170,22 +167,19 @@ label i{
     position: absolute;
     width: 330px;
     height: 52px;
-    left: 1575px;
+    left: 1375px;
     top: 1205px;
-    font-family: 'JejuGothic';
-    font-style: normal;
     font-weight: 400;
     font-size: 48px;
     line-height: 52px;
-    color: #000000;
     background: rgba(217, 217, 217, 0.42);
     justify-content: center;
     display: flex;
 }
 .tup{
     position: absolute;
-    left: 1050px;
-    margin-top: 1400px;
+    left: 1000px;
+    margin-top: 1325px;
     display: flex;
 }
 .trop{
@@ -198,7 +192,8 @@ label i{
 .image_marque{
     height: 350px;
     width: 15%;
-    margin-left: 25px;
+    margin-left: 15px;
+    left: 0px, 0px;
     display: inline-block;
     overflow: hidden;
 }
@@ -207,7 +202,7 @@ label i{
     position: absolute;
     width: 100%;
     height: 286.24px;
-    top: 2000px;
+    top: 1850px;
     display: inline-block;
     text-decoration: none;
 }
@@ -215,7 +210,8 @@ label i{
     width: 25%;
     padding: 0 15px;
     text-transform: none;
-    left: 25px;
+    left: 145px;
+    top: 25px;
     position: absolute;
     justify-content: center;
 }
@@ -224,67 +220,19 @@ label i{
     padding: 0 15px;
     text-transform: none;
     left: 1000px;
+    top: 25px;
     position: absolute;
     justify-content: center;
 }
 .footo .social{
-    /*height: 40px;
-    width: 40px;
-    background-color: rgba(255, 255, 255, 0.2);
-    margin: 0 10px 10px 0;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    color: #ffffff;
-    transition: all 0.5s ease;*/
     position: absolute;
     width: 40px;
     height: 40px;
-    left: 2000px;
-    top: 44.69px;
+    left: 1700px;
+    top: 25px;
     text-align: center;
     line-height: 40px;
     margin: 0 10px 10px 0;
+    text-decoration: none;
     justify-content: center;
 }
-/*.footer-col h4{
-    font-size: 18px;
-    color: #ffffff;
-    text-transform: capitalize;
-    margin-bottom: 30px;
-    font-weight: 500;
-    position: relative;
-}
-.footer-col h4::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    background-color: #e91e63;
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
-}
-.footer-col ul li:not(:last-child){
-    margin-bottom: 10px;
-}
-.footer-col ul li a{
-    font-size: 16px;
-    text-transform: capitalize;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 300;
-    color: #bbbbbb;
-    display: block;
-    transition: all 0.3s ease;
-}
-.footer-col ul li a:hover{
-    color: #ffffff;
-    padding-left: 8px;
-}
-
-}
-.footer-col .social-links a:hover{
-    color: #24262b;
-    background-color: #ffffff;
-}*/

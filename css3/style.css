@@ -1,8 +1,8 @@
-* {
+/*
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
+}*/
 
 html{
     font-size: 62,5%;
@@ -31,13 +31,14 @@ li{
 
 a{
     color: #ffffff;
-    text-decoration: none
+    text-decoration: none;
+    width: 200px
 }
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}* 
+}
 /* HEADER */
 
 .main-head{
@@ -104,6 +105,7 @@ label i{
     margin-left: 20px;
 }
 
+
 p{
     background: #D9D9D9;
 }
@@ -111,13 +113,13 @@ p{
     position: absolute;
     width: 314px;
     height: 70px;
-    margin-top: 534px;
+    margin-top: 515px;
     left: 30px;
     display: flex;
 }
 .conte0{
     position: absolute;
-    width: 200px;
+    width: 180px;
     height: 400px;
     left: 30px;
     top: 134px;
@@ -125,15 +127,15 @@ p{
 }
 .pi{
     position: absolute;
-    width: 314px;
+    width: 320px;
     height: 70px;
-    margin-top: 534px;
+    margin-top: 515px;
     left: 440px;
     display: flex;
 }
 .conte1{
     position: absolute;
-    width: 200px;
+    width: 180px;
     height: 400px;
     left: 440px;
     top: 134px;
@@ -143,7 +145,7 @@ p{
     position: absolute;
     width: 314px;
     height: 70px;
-    margin-top: 534px;
+    margin-top: 515px;
     left: 865px;
     display: flex;
 }
@@ -159,7 +161,7 @@ p{
     position: absolute;
     width: 314px;
     height: 70px;
-    margin-top: 534px;
+    margin-top: 515px;
     left: 1280px;
     display: flex;
 }
@@ -175,7 +177,7 @@ p{
     position: absolute;
     width: 314px;
     height: 70px;
-    margin-top: 534px;
+    margin-top: 515px;
     left: 1700px;
     display: flex;
 }    
@@ -193,7 +195,7 @@ p{
     position: absolute;
     width: 350px;
     height: 70px;
-    margin-top: 1150px;
+    margin-top: 1130px;
     left: 30px;
     display: flex;
 }    
@@ -209,7 +211,7 @@ p{
     position: absolute;
     width: 350px;
     height: 70px;
-    margin-top: 1150px;
+    margin-top: 1130px;
     left: 440px;
     display: flex;
 }    
@@ -223,9 +225,9 @@ p{
 }
 .le2{
     position: absolute;
-    width: 350px;
+    width: 275px;
     height: 70px;
-    margin-top: 1150px;
+    margin-top: 1130px;
     left: 865px;
     display: flex;
 }    
@@ -241,7 +243,7 @@ p{
     position: absolute;
     width: 350px;
     height: 70px;
-    margin-top: 1150px;
+    margin-top: 1130px;
     left: 1280px;
     display: flex;
 }    
@@ -257,7 +259,7 @@ p{
     position: absolute;
     width: 200px;
     height: 100px;
-    margin-top: 1125px;
+    margin-top: 1105px;
     left: 1700px;
     display: flex;
 }    
@@ -275,7 +277,7 @@ p{
     position: absolute;
     width: 350px;
     height: 100px;
-    margin-top: 1816px;
+    margin-top: 1796px;
     left: 30px;
     display: flex;
 }
@@ -289,15 +291,15 @@ p{
 }.ce1{
     position: absolute;
     width: 350px;
-    height: 50px;
-    margin-top: 1865px;
+    height: 100px;
+    margin-top: 1796px;
     left: 475px;
     display: flex;
 }
 .con1{
     position: absolute;
     width: 200px;
-    height: 400px;
+    height: 350px;
     left: 475px;
     top: 1466px;
     display: flex;
@@ -305,15 +307,15 @@ p{
 .ce2{
     position: absolute;
     width: 350px;
-    height: 50px;
-    margin-top: 1865px;
+    height: 100px;
+    margin-top: 1795px;
     left: 865px;
     display: flex;
 }    
 .con2{
     position: absolute;
-    width: 200px;
-    height: 400px;
+    width: 100px;
+    height: 350px;
     left: 865px;
     top: 1466px;
     display: flex;
@@ -322,13 +324,13 @@ p{
     position: absolute;
     width: 350px;
     height: 100px;
-    margin-top: 1816px;
+    margin-top: 1795px;
     left:1280px;
     display: flex;
 }
 .con3{
     position: absolute;
-    width: 200px;
+    width: 400px;
     height: 350px;
     left: 1280px;
     top: 1466px;
@@ -337,15 +339,15 @@ p{
 .ce4{
     position: absolute;
     width: 355px;
-    height: 50px;
-    margin-top: 1865px;
+    height: 100px;
+    margin-top: 1795px;
     left: 1700px;
     display: flex;
 }
 .con4{
     position: absolute;
     width: 200px;
-    height: 400px;
+    height: 350px;
     left: 1700px;
     top: 1466px;
     display: flex;
@@ -355,13 +357,13 @@ p{
     position: absolute;
     width: 300px;
     height: 100px;
-    margin-top: 2350px;
+    margin-top: 2300px;
     left: 30px;
     display: flex;
 }
 .Ao0{
     position: absolute;
-    width: 200px;
+    width: 360px;
     height: 350px;
     left: 30px;
     top: 2000px;
@@ -370,15 +372,15 @@ p{
 .Ae1{
     position: absolute;
     width: 355px;
-    height: 50px;
-    margin-top: 2405px;
+    height: 100px;
+    margin-top: 2300px;
     left: 475px;
     display: flex;
 }
 .Ao1{
     position: absolute;
     width: 200px;
-    height: 403.5px;
+    height: 325px;
     left: 475px;
     top: 2000px;
     display: flex;
@@ -386,8 +388,8 @@ p{
 .Ae2{
     position: absolute;
     width: 355px;
-    height: 135px;
-    margin-top: 2319px;
+    height: 100px;
+    margin-top: 2300px;
     left: 865px;
     display: flex;
 }
@@ -403,7 +405,7 @@ p{
     position: absolute;
     width: 274px;
     height: 100px;
-    margin-top: 2350px;
+    margin-top: 2300px;
     left: 1280px;
     display: flex;
 
@@ -411,7 +413,7 @@ p{
 .Ao3{
     position: absolute;
     width: 200px;
-    height: 350px;
+    height: 325px;
     left: 1280px;
     top: 2000px;
     display: flex;
@@ -419,15 +421,15 @@ p{
 .Ae4{
     position: absolute;
     width: 355px;
-    height: 50px;
-    margin-top: 2400px;
+    height: 100px;
+    margin-top: 2300px;
     left: 1700px;
     display: flex;
 }
 .Ao4{
     position: absolute;
-    width: 200px;
-    height: 420px;
+    width: 350px;
+    height: 350px;
     left: 1700px;
     top: 2000px;
     display: flex;
